@@ -13,9 +13,27 @@
              [:p {:style {:color "red"}} "fuckface"]]))
 
 (defcard nav-menu
-  (sab/html [:div {:style {:background-color "blue"}}
-             [:li
-              [:a {:href "www.google.com"} "google"]]]))
+  (sab/html [:div {:style {;;:background-color "#568e8f"
+                           ;;:background-color "#083352"
+                           :background-color "#3c5b7f"
+                           :height "30px"
+                           :padding "20px"
+                           :font-size "150%"}}
+             [:a {:href "www.google.com"
+                  :style {:color "white"}}
+              "joshuastupplebeen.io"]
+             [:a {:href "www.google.com"
+                  :style {:padding-left "40px"
+                          :color "white"}}
+              "Weblog"]
+             [:a {:href "www.google.com"
+                  :style {:padding-left "40px"
+                          :color "white"}}
+              "Portfolio"]
+             [:a {:href "www.google.com"
+                  :style {:padding-left "40px"
+                          :color "white"}}
+              "Contact"]]))
 
 (def test-text
 "round round. Beef ribs kielbasa biltong, drumstick picanha ball tip landjaeger beef filet mignon fatback cow bresaola ham bacon meatball. Kielbasa drumstick tenderloin tail, swine buffalo porchetta. Ground round turducken boudin pancetta. Andouille meatloaf pork belly venison, corned beef chuck drumstick alcatra spare ribs.
